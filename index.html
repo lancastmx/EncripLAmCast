@@ -8,6 +8,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container--loader">
+        <div class="loader"></div>
+    </div>
+    
+    <main>
+        <div class="contenedor-izq">
+            <textarea name="" id="input-texto" class="input-texto" cols="30" rows="13" placeholder="Ingrese el texto aquí"></textarea>
+            <p>🛈 Solo letras minúsculas y sin acentos</p>
+        </div>
+        
+        <div class="container-btns">
+            <button class="b-encriptar" id="b-encriptar" onclick="encriptar()">ENCRIPTAR</button>
+            <button class="b-desencriptar" onclick="desencriptar()">DESENCRIPTAR</button>
+            <button class="b-copiar" onclick="copiar()">COPIAR</button>
+        </div>
+        
+        <div class="contenedor-der">
+            <div class="opacidad-imagen"></div> 
+
+            <div class="contenedor-texto">
+                <textarea name="" id="output-texto" class="output-texto" cols="30" rows="10"></textarea>
+                <P id="texto1-contder" class="texto1-contder">Ningún mensaje fue encontrado</P>
+                <p id="texto2-contder" class="texto2-contder">Ingresa el texto que desees encriptar o desencriptar.</p>               
+            </div>              
+        </div>
+    </main>
+
+    <footer>
+        <span>&copy; 2022 | Made with</span>
+        <span><img class="corazon" src="./image/icons8-filled-heart-32.png" alt="corazón"></span>
+        <span>by</span>
+        <span>Mariana Arias |</span>
+        
+        <a href="https://www.linkedin.com/in/lancast/" target="_blank"><img class="icon_linkedin" src="./image/icon-linkedin.png" alt="linkedIn"></a>
+        <a href="https://github.com/lancastmx" target="_blank"><img class="icon_github" src="./image/icon-github.png" alt="GitHub"></a>
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
     <div class="loader">
         <div class="face">
             <div class="circle"></div>
