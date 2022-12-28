@@ -30,7 +30,7 @@ function encriptar() {
             background: '#E3E0DE',
             title: 'Oops...',
             confirmButtonColor: '#b9ab9c',
-            text: 'Solo se permiten letras minusculas y sin acento',
+            text: 'Solo se permiten letras minusculas y sin acentos',
           });
     }
     else if (texto.length === 0) {
@@ -40,7 +40,7 @@ function encriptar() {
             background: '#E3E0DE',
             title: 'Oops...',
             confirmButtonColor: '#b9ab9c',
-            text: 'El campo de texto está vacio, escriba el texto que desea encriptar',
+            text: 'El campo de texto está vacio',
           });
     }
     else {
@@ -68,7 +68,7 @@ function desencriptar() {
             background: '#E3E0DE',
             title: 'Oops...',
             confirmButtonColor: '#b9ab9c',
-            text: 'El campo de texto está vacio, escriba el texto que desea desencriptar',
+            text: 'El campo de texto está vacio',
         });
     }
 
