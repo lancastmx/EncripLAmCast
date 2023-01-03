@@ -46,7 +46,7 @@ main {
     width: 28rem;   
     height: 80%;
     margin-top: 0;
-    box-shadow: 3px 3px 10px lightgrey;
+    box-shadow: 3px 3px 10px rgb(115, 70, 70);
     background-image: url(../image/font-img.png);
     background-size: cover;
     background-repeat: no-repeat;
