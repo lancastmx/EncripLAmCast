@@ -14,7 +14,7 @@ function value() {
     let input = document.getElementById("input-texto");
     input.value = "";
 }
-
+// Comenta en javaSript
 function encriptar() {
     let texto = document.getElementById("input-texto").value;
     let txt_cifrado = texto.replace(/e/gm, "enter");
