@@ -1,0 +1,15 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #6e6a6a;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+
+main {
+    display: flex;
+    height: auto;
+    padding: 2rem;
+    flex-direction: column;
+}

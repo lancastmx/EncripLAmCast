@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/lancastencrip.css">
+    <link rel="stylesheet" href="./csslanencrip/desktop.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="./js/lancastEncrip.js"></script>
     <title>LancastEncrip</title>
 </head>
 <body>
-    
+    <main>        <!--Este es el cuerpo principal del encriptador---------------->
+        <div class="contenedor-izq">
+            <textarea name="" id="input-texto" class="input-texto" cols="30" rows="13" placeholder="Ingrese el mensaje que desa incriptar",></textarea>
+            <p>🛈 Solo letras minúsculas y sin acentos</p>
+        </div>
+        <!-- Botones---------------->
+        <div class="botones">
+            <button class="b-encriptar" id="b-encriptar" onclick="encriptar()">ENCRIPTAR</button>
+            <button class="b-desencriptar" onclick="desencriptar()">DESENCRIPTAR</button>
+            <button class="b-copiar" onclick="copiar()">COPIAR</button>
+        </div>
+        <!--Mensaje de alerta-->
+        <div class="contenedor-der">    
+            <div class="contenedor-texto">
+                <textarea name="" id="output-texto" class="output-texto" cols="30" rows="10"></textarea>
+                <P id="texto1-contder" class="texto1-contder">Aun no hay mensajes</P>
+                <p id="texto2-contder" class="texto2-contder">Ingresa el texto que desees encriptar o desencriptar.</p>               
+            </div>              
+        </div>
+    </main>
 </body>
 </html>

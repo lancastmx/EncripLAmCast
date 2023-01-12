@@ -1,0 +1,7 @@
+main {
+    height: 93vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 0;
+}
