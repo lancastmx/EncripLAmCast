@@ -1,4 +1,19 @@
+/* ===== Loader =====*/
+window.addEventListener('load', () => {
+    const contenedorLoader = document.querySelector('.container--loader');
+    contenedorLoader.style.opacity = 0;
+    contenedorLoader.style.visibility = 'hidden';
+})
 
+function focus() {
+    let input = document.getElementById("input-texto");
+    input.focus();
+}
+
+function value() {
+    let input = document.getElementById("input-texto");
+    input.value = "";
+}
 // Comenta en javaSript
 function encriptar() {
     let texto = document.getElementById("input-texto").value;
@@ -16,9 +31,9 @@ function encriptar() {
             title: 'Oops...',
             confirmButtonColor: '#b9ab9c',
             text: 'Solo se permiten letras minusculas y sin acentos',
-          }
+          });
     }
-    /**else if (texto.length === 0) {
+    else if (texto.length === 0) {
         Swal.fire({
             icon: 'error',
             iconColor: '#b9ab9c',
@@ -34,9 +49,8 @@ function encriptar() {
         document.getElementById("output-texto").style.display = "inline-block";
         document.getElementById("output-texto").innerHTML = txt_cifrado;
         
-        value(); 
-    } */
-    
+        value();
+    }
 }
 
 function desencriptar() {
@@ -57,7 +71,7 @@ function desencriptar() {
             text: 'El campo de texto está vacio',
         });
     }
-/*
+
     else {
     document.getElementById("texto1-contder").style.display = "none";
     document.getElementById("texto2-contder").style.display = "none";
@@ -66,7 +80,7 @@ function desencriptar() {
 
     value();    
     }
-} */ 
+}
 
 function copiar() {
     let contenido = document.querySelector("#output-texto");
