@@ -1,11 +1,21 @@
-html {
-    font-size: 62.5%;
-}
 
-body {
-    background: #6e6a6a;
+* {
+    background: #a4a5aa00;
     font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
 }
+header{
+   
+}
+h1{
+    display: inline;
+    font-size: 5vw;
+    color: transparent;
+    background-image: linear-gradient(to top, #01071250 0%, #eaeaea 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+
 
 main {
     display: flex;
@@ -13,49 +23,90 @@ main {
     padding: 2rem;
     flex-direction: column;
 }
-
+.contenedor-der{
+    border:transparent;
+    display: flex; /*inline-flexbox o inline-block responsive*/
+    min-height: 80%;
+    align-items: center;
+    justify-content: center;
+    background-color: #cfd1d15c;
+}
+.contenedor-izq{
+    border:transparent;
+    display: flex; /*inline-flexbox o inline-block responsive*/
+    min-height: 80%;
+    align-items: center;
+    justify-content: center;
+    background-color: #cfd1d13a;
+}
 .contenedor-izq {
+    border:transparent;
+    flex-direction: column;
     width: 28rem;   
-    height: 80%;
+    height: 50%;
     margin-top: 0;
-    box-shadow:    0px 0px 66.6px rgba(0, 0, 0, 0.297),
-    0px 0px 89.6px rgba(0, 0, 0, 0.37),
-    0px 0px 167px rgba(0, 0, 0, 0.73)
+    box-shadow:    0px 0px 66.6px rgba(247, 247, 247, 0.59),
+    0px 0px 89.6px rgba(22, 24, 144, 0.37),
+    0px 0px 167px rgba(255, 255, 255, 0.73)
   ;
-    background-image: url(../image/font-img.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border: none;
-    padding: 0 2rem;
+    
 }
 
 .contenedor-der {
+    justify-content: center;
+    border:transparent;
     width: 28rem;   
-    height: 80%;
+    height: 60%;
     margin-top: 0;
-    box-shadow:    0px 0px 66.6px rgba(0, 0, 0, 0.297),
-    0px 0px 89.6px rgba(0, 0, 0, 0.37),
-    0px 0px 167px rgba(0, 0, 0, 0.73)
+    box-shadow:    0px 0px 66.6px rgba(236, 227, 227, 0.628),
+    0px 0px 89.6px rgba(88, 125, 217, 0.37),
+    0px 0px 167px rgba(165, 176, 216, 0.73)
   ;
-    background-image: url(../image/font-img.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border: none;
-    padding: 0 2rem;
+    
 }
 .input-texto {
+    text-align: center;
     width: 75%;
-    height: 70%;
-    font-size: 1.6rem;
-    color: #256e0f;
-    font-family: 'Montserrat', sans-serif;
-    border-style: none;
+    height: 50%;
+    font-size: 2vw;
+    color: rgba(0,0,0,0.50);
+    background-clip: text;
+    -webkit-background-clip: text;
     resize: none;
     outline: none;
     margin-bottom: 1.5rem;
-    background: #2c2b27;
-    background-color: #DCD9D4;
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+    background: #b29215;
+    background-color: #dcd9d400;
+    border:transparent;
+    linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(171, 159, 69, 0.276) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
     background-blend-mode: soft-light,screen;
+    border-radius: 20px;
     scrollbar-width: thin;
+}
+
+.output-texto{
+    text-align: center;
+    width: 75%;
+    height: 50%;
+    font-size: 2vw;
+    color: rgba(0,0,0,0.50);
+    background-clip: text;
+    -webkit-background-clip: text;
+    resize: none;
+    outline: none;
+    margin-bottom: 1.5rem;
+    background: #b29215;
+    background-color: #dcd9d400;
+    border:transparent;
+    linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(171, 159, 69, 0.276) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+    background-blend-mode: soft-light,screen;
+    border-radius: 20px;
+    scrollbar-width: thin;
+}
+p {
+    font-size: 1vw;
+    color: transparent;
+    background-image: linear-gradient(to top, #e4c095fe 0%, #832d2d 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
 }

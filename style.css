@@ -1,11 +1,11 @@
 body{
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.209) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 120%) #000000;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.911) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(0, 0, 0, 0.072) 0%, rgba(0, 0, 0, 0.17) 120%) #0000003e;
     
 }
 h1{
     font-size: 12vw;
     color: transparent;
-    background-image: linear-gradient(to top, #8e6430ac 0%, #ff0000a8 100%);
+    background-image: linear-gradient(to top, #fbf9f63a 0%, #060101e0 100%);
     background-clip: text;
     -webkit-background-clip: text;
 }
